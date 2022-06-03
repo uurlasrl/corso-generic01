@@ -1,5 +1,6 @@
 #include <iostream>
 #include "constexpr_math.h"
+#include "fp_math.h"
 int main() {
     constexpr int precision = 10;
     constexpr auto c = constexpr_math::fast_cos<precision, double>{};
